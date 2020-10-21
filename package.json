@@ -1,7 +1,7 @@
 {
-  "name": "bunyan",
+  "name": "@scaffoldly/bunyan",
   "version": "1.8.14",
-  "description": "a JSON logging library for node.js services",
+  "description": "a JSON logging library for node.js services, without dtrace",
   "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
   "main": "./lib/bunyan.js",
   "bin": {
@@ -30,8 +30,6 @@
   "// mv": "required for RotatingFileStream",
   "// moment": "required for local time with CLI",
   "optionalDependencies": {
-    "dtrace-provider": "~0.8",
-    "mv": "~2",
     "safe-json-stringify": "~1",
     "moment": "^2.19.3"
   },
